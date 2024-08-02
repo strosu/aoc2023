@@ -3,8 +3,23 @@ package org.example
 import java.io.File
 
 fun main() {
-    solve3()
+    solve4()
 }
+
+fun solve4() {
+    println(
+        Problem4().solve1(File("./build/resources/main/4/sample").readLines()))
+
+    println(
+        Problem4().solve1(File("./build/resources/main/4/pb").readLines()))
+
+    println(
+        Problem4().solve2(File("./build/resources/main/4/sample").readLines()))
+
+    println(
+        Problem4().solve2(File("./build/resources/main/4/pb").readLines()))
+}
+
 
 fun solve3() {
     println(
