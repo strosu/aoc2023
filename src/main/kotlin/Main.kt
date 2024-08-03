@@ -1,9 +1,37 @@
-package org.example
+package aoc2023
 
+import org.example.Problem1
+import org.example.Problem2
+import org.example.Problem3
+import org.example.Problem4
 import java.io.File
 
-fun main() {
-    solve4()
+class Main {
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            solve5()
+        }
+    }
+}
+
+
+fun solve5() {
+//    println(
+//        Problem5().solve(File("./build/resources/main/5/sample").readText())
+//    )
+//
+//    println(
+//        Problem5().solve(File("./build/resources/main/5/pb").readText())
+//    )
+
+    println(
+        Problem5().solve2(File("./build/resources/main/5/sample").readText())
+    )
+
+    println(
+        Problem5().solve2(File("./build/resources/main/5/pb").readText())
+    )
 }
 
 fun solve4() {
